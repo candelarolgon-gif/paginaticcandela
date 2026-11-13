@@ -1,0 +1,186 @@
+
+
+header {
+  background-color: #800020; 
+  color: #FFD700; 
+  font-size: 24px;
+  text-align: center;
+  padding: 15px;
+  width: 80%;
+  border-radius: 8px;
+}
+
+body {
+  color: #4A0E17; 
+  background-color: #F8F0F2; 
+  font-family: "Tahoma", sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+p {
+  font-family: "Tahoma";
+  font-size: 16px;
+  color: #330011;
+  text-align: center; 
+}
+
+footer {
+  color: #FFF0F2;
+  background-color: #660022;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+#info {
+  font-size: 18px;
+  font-weight: bold;
+  color: #800020;
+}
+
+#aviso {
+  background-color: #990033;
+  color: white;
+  padding: 6px 15px;
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+
+.cuadro-desplazamiento {
+  width: 80%;
+  background-color: #4A0E17;
+  color: #FFFFFF;
+  padding: 8px;
+  border: 2px solid #800020;
+  border-radius: 5px;
+}
+
+#indice-box {
+  background-color: #E6CBD0;
+  border: 2px solid #800020;
+  width: 80%;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.linea-separadora {
+  width: 80%;
+  border: 1px solid #800020;
+}
+
+.vamosaensayar {
+  font-family: "Bahnschrift SemiBold", sans-serif; 
+  font-size: 28px;
+  font-style: italic; 
+  font-weight: bold;
+  font-variant: small-caps;
+  color: #800020; 
+  text-align: center;
+  text-decoration: #990033 underline wavy;
+  text-shadow: 1px 1px 2px #330011; 
+  line-height: 1.5; 
+}
+
+
+#menuhorizontal ul {
+  border-bottom-color: #800020;
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  padding: 0;
+}
+
+#menuhorizontal ul li {
+  display: inline-block; 
+  padding: 6px 12px; 
+  margin: 3px; 
+  background-color: #800020; 
+  color: white; 
+  font-family: "Comic Sans MS", cursive, sans-serif; 
+  font-size: 16px; 
+  border-radius: 4px;
+  transition: background-color 0.3s ease; 
+}
+
+#menuhorizontal ul li:hover {
+  background-color: #D98880; 
+  cursor: pointer;
+}
+
+#menuhorizontal ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+#menuD ul {
+  list-style: none;
+  padding: 0;
+}
+
+#menuD ul li {
+  background-color: #800020;
+  color: white;
+  padding: 8px 15px;
+  display: inline-block;
+  position: relative;
+  border-radius: 4px;
+}
+
+#menuD ul li:hover {
+  background-color: #990033;
+  color: #FFD700;
+}
+
+#menuD li ul {
+  display: none;
+}
+
+#menuD li:hover > ul {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #660022;
+  min-width: 150px;
+  z-index: 10;
+}
+
+#menuD li ul li {
+  display: block;
+}
+
+#menuD a {
+  color: white;
+  text-decoration: none;
+}
+
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+caption {
+  font-weight: bold;
+  color: #800020;
+  margin-bottom: 5px;
+}
+
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+table[border="1"], table[border="1"] td {
+  border: 1px solid #800020;
+}
+
+.tabla1 td {
+  border: none;
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+
+<head>
+  <title>Mi web de Inteligencia Artificial</title>
+  <link href="icono.png" rel="icon" />
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="animacion.css" rel="stylesheet" type="text/css">
+  
+  <script src="processing.js"></script>
+  <script type="text/processing" data-processing-target="pjsCanvas">
+    void setup(){
+      size(280,70);
+      background(#660022);
+      textSize(45);
+      fill(#FFFFFF);
+    }
+    void draw(){
+      background(#660022);
+      int h = hour();
+      int m = minute();
+      int s = second();
+      text(h + ":" + nf(m,2) + ":" + nf(s,2), 30, 50);
+    }
+  </script>
+</head>
+
+<body>
+
+  <center>
+
+    
+    <nav id="menuhorizontal">
+      <ul> 
+        <li><a href="#ap1">Definiciones</a></li> 
+        <li><a href="#ap2">Tipos IA</a></li>
+        <li><a href="#ap3">Historia</a></li> 
+        <li><a href="#ap4">Aplicaciones</a></li>
+        <li><a href="#ap5">Futuro</a></li>
+      </ul> 
+    </nav>
+
+    <br>
+
+  
+    <header>
+      <h1>Trabajo de Inteligencia Artificial - IES CONDESA</h1>
+    </header>
+
+    <br>
+    
+    <div id="info"> NOS GUSTA TIC </div>
+    <br>
+    <div id="aviso">INTELIGENCIA ARTIFICIAL </div>
+
+    <br><br>
+
+   
+    <div class="cuadro-desplazamiento">
+      <marquee behavior="scroll" direction="left" scrollamount="6">
+        <b></b> Bienvenidos a mi página web de TIC 
+      </marquee>
+    </div>
+
+    <br>
+
+   
+    <canvas id="pjsCanvas">Reloj</canvas>
+
+    <br><br>
+
+    <div id="indice-box">
+      <p id="puntostodos"><b>ÍNDICE DE CONTENIDOS (Enlaces Internos)</b></p>
+      <a href="#ap1"> Definiciones sobre IA</a><br>
+      <a href="#ap2"> Tipos de Inteligencia Artificial</a><br>
+      <a href="#ap3"> Historia de la IA</a><br>
+      <a href="#ap4"> Aplicaciones del Big Data e IA</a><br>
+      <a href="#ap5"> Futuro e inconvenientes de la IA</a><br>
+      <a href="#recursos">6. Recursos, Tablas y Multimedia</a>
+    </div>
+
+    <br><hr class="linea-separadora"><br>
+
+    <main>
+     
+      <div id="ap1">
+        <h2>1. Definiciones Importantes sobre IA</h2>
+		<img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&auto=format&fit=crop&q=60" alt="Centros de datos y servidores" width="400" border="1" style="border-radius: 8px;"><br><br>
+        <p>Para dar formato a estos textos utilizo estas etiquetas:</p>
+        <p>
+          <br><b>La Inteligencia Artificial es la capacidad de una máquina de realizar funciones humanas.</b>
+          <br><i>El Machine Learning permite a las máquinas aprender sin ser programadas explícitamente.</i>
+          <br><u>PÁGINA WEB REALIZADA POR:</u>
+          <br><mark>CANDELA ROLDÁN</mark>
+        </p>
+      </div>
+
+      <br><hr class="linea-separadora"><br>
+
+     
+      <div id="ap2">
+        <h2>2. Tipos de Inteligencia Artificial</h2>
+		<img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=500&auto=format&fit=crop&q=60" alt="Persona usando portátil" width="400" border="1" style="border-radius: 8px;">
+        <p><b>Listas de Tipos de IA:</b></p>
+        <ul>
+          <li type="square">IA Débil: Diseñada para realizar tareas específicas (ej. Alexa o Siri)</li>
+          <li type="square">IA Fuerte: Simula la inteligencia humana en su totalidad (aún no existe)
+		  </ul>
+
+        <p><b>Tipos de Aprendizaje Automático:</b></p>
+        <ol type="1">
+          <li>Aprendizaje Supervisado: Se utilizan datos etiquetados (ej. detección de spam)</li>
+          <li>Aprendizaje No Supervisado: Busca patrones sin etiquetas previo (ej. clustering de usuarios)</li>
+          <li>Aprendizaje por Refuerzo: Basado en recompensas y penalizaciones (ej. videojuegos y ajedrez)</li>
+        </ol>
+      </div>
+
+      <br><hr class="linea-separadora"><br>
+
+    
+      <div id="ap3">
+        <h2>3. Historia de la Inteligencia Artificial</h2>
+		<img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&auto=format&fit=crop&q=60" alt="Ordenador y código de IA" width="400" border="1" style="border-radius: 8px;"><br><br>
+        <p>Hitos clave en el tiempo:</p>
+        <ol type="a">
+          <li><b>1956:</b> John McCarthy usa por primera vez el término IA</li>
+          <li><b>1966:</b> Nace Eliza, el primer chatbot psicólogo</li>
+          <li><b>1997:</b> Deep Blue de IBM vence a Kaspárov en ajedrez</li>
+          <li><b>2011:</b> Aparece Siri en los teléfonos móviles</li>
+          <li><b>2014:</b> Se comercializa Alexa para casas inteligentes</li>
+        </ol>
+      </div>
+
+      <br><hr class="linea-separadora"><br>
+
+      
+      <div id="ap4">
+        <h2>4. Aplicaciones de la IA y el Big Data</h2>
+		<img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=500&auto=format&fit=crop&q=60" alt="Gente usando tecnología IA" width="400" border="1" style="border-radius: 8px;"><br><br>
+        <p>Campos donde se aplica:</p>
+        <ul>
+          <li>👻 Medicina: Detección temprana de enfermedades y alertas epidémicas</li>
+          <li>👻 Ocio y Comercio: Recomendaciones personalizadas en Netflix y Amazon</li>
+          <li>👻 Transporte: Vehículos autónomos y optimización de rutas en Google Maps y Waze</li>
+        </ul>
+      </div>
+
+      <br><hr class="linea-separadora"><br>
+
+    
+      <div id="ap5">
+        <h2>5. Futuro e Inconvenientes de la IA</h2>
+		<img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&auto=format&fit=crop&q=60" alt="Trabajando con ordenadores" width="400" border="1" style="border-radius: 8px;"><br><br>
+        <p>Consecuencias éticas y sociales:</p>
+        <ul>
+          <li type="disc">Inclusión de sesgos: Errores sistemáticos en los datos de entrenamiento</li>
+          <li type="disc">Falsificaciones (Deepfakes): Alteración de caras y voz en vídeos</li>
+          <li type="disc">Pérdida de privacidad: Riesgos con el uso no autorizado de datos masivos</li>
+        </ul>
+      </div>
+    </main>
+
+    <br><hr class="linea-separadora"><br>
+
+   
+    <div id="recursos">
+      <p class="vamosaensayar">Sección de Tablas y Enlaces</p>
+
+    
+      <table class="tabla1">
+        <caption>Conceptos clave (Sin bordes)</caption>
+        <tr>
+          <td>Redes Neuronales</td>
+          <td>Deep Learning</td>
+        </tr>
+        <tr>
+          <td>Agentes Inteligentes</td>
+          <td>Big Data</td>
+        </tr>
+      </table>
+
+      <br>
+
+    
+      <table border="1">
+        <caption>Enlaces externos e internos</caption>
+        <tr>
+          <td><b>Tipo de Recurso</b></td>
+          <td><b>Enlace</b></td>
+        </tr>
+        <tr>
+          <td>Enlace externo</td>
+          <td><a href=https://es.wikipedia.org/wiki/Inteligencia_artificial target="_blank">Wikipedia</a></td>
+        </tr>
+        <tr>
+          <td>Enlace Interno</td>
+          <td><a href="#puntostodos">Volver al Índice</a></td>
+        </tr>
+      </table>
+
+      <br>
+
+     
+      <table border="1">
+        <caption>Celdas combinadas</caption>
+        <tr>
+          <td colspan="3">Ejemplos de IA</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Perplexity</td>
+          <td>Claude</td>
+          <td>Copilot</td>
+        </tr>
+        <tr>
+          <td>Gemini</td>
+          <td>Chat GPT</td>
+        </tr>
+      </table>
+
+      <br><br>
+
+      <h2>ETIQUETA </h2>
+      <img src="etiqueta.png" alt="mi etiqueta" border="1" width="300"><br><br>
+      
+
+      <br><br>
+
+      <h2>INSERTAR CANCIONES Y VÍDEOS</h2>
+      <audio src="cancion.mp3" controls></audio><br>
+      <audio src="canciona.mp4" controls></audio><br><br>
+
+      <video src="video.mp4" width="400" controls></video><br><br>
+      
+      <iframe width="450" height="250" src="https://www.youtube.com/embed/zdEqVujXGdE" frameborder="0" allowfullscreen></iframe><br><br>
+      
+      <iframe class= "mapa-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.213835881256!2d-3.696436303210449!3d40.44840390000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229d2b5a2fc0f%3A0x24da87d147e277a0!2sInteligencia%20Artificial%20Madrid!5e0!3m2!1ses!2ses!4v1794229687095!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+
+    <br><br>
+
+   
+    <nav id="menuD">
+      <ul>
+        <li>Menú Desplegable
+          <ul>
+            <li><a href="htmlcincoyss.pdf" target="_blank">boton 1</a></li>
+            <li>boton 2
+              <ul>
+                <li><a href="https://www.google.es" target="_blank">boton 2.1</a></li>
+                <li>boton 2.2</li>
+              </ul>
+            </li>
+            <li>boton 3</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <br>
+	<br>
+	<br>
+	<br>
+	<br>
+    <footer>
+      adios - Trabajo de IA 
+    </footer>
+
+  </center>
+	<br>
+	<br>
+	<br>
+</body>
+</html>
